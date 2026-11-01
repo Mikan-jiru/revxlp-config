@@ -1,24 +1,24 @@
 include:
-  - board: seeeduino_xiao
+  - board: xiao_ble//zmk
     shield: revxlp
     artifact-name: revxlp_xiao
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble//zmk
     shield: revxlp
     artifact-name: revxlp_xiao_ble
-  - board: seeeduino_xiao_rp2040
+  - board: xiao_ble//zmk
     shield: revxlp
     artifact-name: revxlp_xiao_rp2040
-  - board: seeeduino_xiao
+  - board: xiao_ble//zmk
     shield: revxlp
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: revxlp_xiao_studio
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble//zmk
     shield: revxlp
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: revxlp_xiao_ble_studio
-  - board: seeeduino_xiao_rp2040
+  - board: xiao_ble//zmk
     shield: revxlp
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
