@@ -1,4 +1,3 @@
-
 manifest:
   remotes:
     - name: zmkfirmware
@@ -11,10 +10,6 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-
-    - name: revxlp-config
-      remote: petejohanson
-      revision: main
 
   self:
     path: config
