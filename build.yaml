@@ -2,5 +2,5 @@
 include:
   - board: xiao_ble//zmk
     shield: revxlp
-    cmake-args: -DBOARD_ROOT="${GITHUB_WORKSPACE}/revxlp-config/config"
+    cmake-args: -DBOARD_ROOT="${GITHUB_WORKSPACE}/config"
     artifact-name: revxlp_test
