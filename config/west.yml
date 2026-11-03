@@ -6,6 +6,7 @@ manifest:
   projects:
     - name: zmk
       remote: mikan-jiru
+      repo-path: zmk-corne-xiao
       revision: revxlp-fix
       import: app/west.yml
 
